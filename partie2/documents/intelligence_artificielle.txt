@@ -1,0 +1,11 @@
+L'intelligence artificielle (IA) est un domaine de l'informatique qui vise à créer des systèmes capables de réaliser des tâches qui nécessitent normalement l'intelligence humaine. Ces tâches incluent la reconnaissance vocale, la prise de décision, la traduction linguistique et la perception visuelle.
+
+L'IA peut être divisée en deux catégories principales : l'IA faible (ou étroite) et l'IA forte (ou générale). L'IA faible est conçue pour effectuer une tâche spécifique, comme la reconnaissance faciale ou la recommandation de produits. L'IA forte, qui reste théorique, serait capable de comprendre, apprendre et appliquer l'intelligence à n'importe quelle tâche cognitive, comme un être humain.
+
+L'histoire de l'intelligence artificielle remonte aux années 1950, lorsque Alan Turing a proposé le célèbre "test de Turing" pour déterminer si une machine peut penser. En 1956, John McCarthy a inventé le terme "intelligence artificielle" lors de la conférence de Dartmouth. Depuis lors, le domaine a connu plusieurs périodes d'optimisme suivies de "hivers de l'IA" où le financement et l'intérêt ont diminué.
+
+Les applications modernes de l'IA sont omniprésentes. Les assistants vocaux comme Siri et Alexa utilisent le traitement du langage naturel (NLP). Les voitures autonomes utilisent la vision par ordinateur et l'apprentissage automatique. Les systèmes de recommandation de Netflix et Spotify analysent les préférences des utilisateurs grâce à des algorithmes d'IA.
+
+L'IA soulève également des questions éthiques importantes. La question du biais dans les algorithmes est particulièrement préoccupante : si les données d'entraînement contiennent des préjugés, le système d'IA reproduira ces préjugés. La question de la confidentialité des données, du remplacement des emplois humains et de la responsabilité en cas d'erreur d'un système d'IA font également l'objet de débats intenses.
+
+Le machine learning (apprentissage automatique) est un sous-domaine de l'IA. Au lieu de programmer explicitement des règles, on fournit des données au système et il apprend à reconnaître des patterns. Il existe trois types principaux d'apprentissage automatique : l'apprentissage supervisé (avec des données étiquetées), l'apprentissage non supervisé (sans étiquettes) et l'apprentissage par renforcement (avec un système de récompenses).

@@ -1,0 +1,15 @@
+L'apprentissage profond (Deep Learning) est un sous-domaine de l'apprentissage automatique (Machine Learning) qui utilise des réseaux de neurones artificiels avec de nombreuses couches pour apprendre des représentations de données à plusieurs niveaux d'abstraction.
+
+Un réseau de neurones artificiel est inspiré du fonctionnement du cerveau humain. Il est composé de neurones artificiels organisés en couches : une couche d'entrée, une ou plusieurs couches cachées, et une couche de sortie. Chaque connexion entre neurones a un poids (weight) qui est ajusté pendant l'entraînement pour minimiser l'erreur de prédiction.
+
+La rétropropagation (backpropagation) est l'algorithme fondamental utilisé pour entraîner les réseaux de neurones. Le processus fonctionne en trois étapes : d'abord, les données passent à travers le réseau (forward pass) pour produire une prédiction. Ensuite, on calcule l'erreur entre la prédiction et la valeur réelle (la fonction de perte ou loss). Enfin, on propage cette erreur en arrière à travers le réseau pour ajuster les poids de chaque connexion (backward pass).
+
+Les réseaux de neurones convolutifs (CNN - Convolutional Neural Networks) sont spécialisés dans le traitement des images. Ils utilisent des filtres (kernels) qui glissent sur l'image pour détecter des motifs comme les contours, les textures et les formes. Les CNN sont utilisés dans la reconnaissance faciale, la détection d'objets et l'imagerie médicale.
+
+Les réseaux récurrents (RNN - Recurrent Neural Networks) sont conçus pour traiter des données séquentielles comme le texte et les séries temporelles. Ils possèdent une "mémoire" qui leur permet de prendre en compte les éléments précédents de la séquence. Cependant, les RNN classiques souffrent du problème de disparition du gradient (vanishing gradient), ce qui les empêche de capturer des dépendances à long terme.
+
+Les LSTM (Long Short-Term Memory) et les GRU (Gated Recurrent Unit) sont des variantes améliorées des RNN qui résolvent le problème de disparition du gradient grâce à des mécanismes de portes (gates). Ces portes contrôlent quelles informations doivent être conservées, oubliées ou transmises, permettant au réseau de capturer des dépendances à long terme dans les séquences.
+
+Le transfer learning (apprentissage par transfert) est une technique où un modèle entraîné sur une tâche est réutilisé comme point de départ pour une autre tâche. En NLP, les modèles comme BERT sont d'abord pré-entraînés sur d'énormes corpus de texte, puis fine-tunés sur des tâches spécifiques. Cette approche est révolutionnaire car elle permet d'obtenir d'excellents résultats même avec peu de données d'entraînement.
+
+La descente de gradient (gradient descent) est l'algorithme d'optimisation le plus utilisé en deep learning. Il ajuste les poids du réseau dans la direction qui réduit le plus l'erreur. Il existe plusieurs variantes : SGD (Stochastic Gradient Descent), Adam (Adaptive Moment Estimation) et AdaGrad. Adam est le plus populaire car il adapte automatiquement le taux d'apprentissage pour chaque paramètre.

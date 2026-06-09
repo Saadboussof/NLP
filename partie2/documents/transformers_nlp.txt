@@ -1,0 +1,15 @@
+Les Transformers sont une architecture de réseau de neurones révolutionnaire introduite par Google en 2017 dans l'article "Attention is All You Need". Contrairement aux réseaux récurrents (RNN et LSTM) qui traitent les données séquentiellement, les Transformers traitent toutes les positions d'une séquence en parallèle grâce au mécanisme d'attention.
+
+Le mécanisme d'attention (self-attention) est le cœur des Transformers. Il permet au modèle de regarder toutes les positions d'une séquence simultanément et de calculer l'importance relative de chaque mot par rapport aux autres. Par exemple, dans la phrase "Le chat qui dort sur le canapé est noir", le mécanisme d'attention permet au mot "noir" de se connecter directement au mot "chat", même s'ils sont éloignés dans la phrase.
+
+L'architecture Transformer se compose de deux parties principales : l'encodeur (encoder) et le décodeur (decoder). L'encodeur lit et comprend le texte d'entrée, tandis que le décodeur génère le texte de sortie. BERT utilise uniquement l'encodeur, GPT utilise uniquement le décodeur, et T5 utilise les deux.
+
+BERT (Bidirectional Encoder Representations from Transformers) est un modèle développé par Google en 2018. Il lit le texte dans les deux directions (gauche-à-droite et droite-à-gauche) simultanément, ce qui lui permet de mieux comprendre le contexte. BERT est pré-entraîné sur deux tâches : le masquage de mots (MLM) où il prédit des mots cachés, et la prédiction de la phrase suivante (NSP).
+
+GPT (Generative Pre-trained Transformer) est développé par OpenAI. Contrairement à BERT, GPT lit le texte uniquement de gauche à droite. Il est optimisé pour la génération de texte. GPT-2 a 1,5 milliard de paramètres, GPT-3 en a 175 milliards, et GPT-4 est encore plus grand. Ces modèles sont capables de générer du texte cohérent, de répondre à des questions et même d'écrire du code.
+
+La tokenization est une étape cruciale dans l'utilisation des Transformers. Elle consiste à découper le texte en petits morceaux appelés tokens. BERT utilise la méthode WordPiece, tandis que GPT utilise le Byte Pair Encoding (BPE). Les tokens spéciaux comme [CLS], [SEP] et [PAD] jouent des rôles spécifiques dans le traitement du texte par BERT.
+
+Le fine-tuning (ajustement fin) est la technique qui rend les Transformers si puissants. On prend un modèle pré-entraîné sur d'énormes corpus de texte et on l'adapte à une tâche spécifique avec un plus petit ensemble de données. Par exemple, on peut fine-tuner BERT pour la classification de sentiments en ajoutant simplement une couche de classification au-dessus et en l'entraînant sur quelques milliers d'exemples étiquetés.
+
+Les embeddings sont des représentations vectorielles des mots ou des phrases. Dans BERT, chaque token est représenté par un vecteur de 768 dimensions. Ces vecteurs capturent le sens sémantique : des mots similaires auront des vecteurs proches dans l'espace vectoriel. L'embedding du token [CLS] est souvent utilisé comme représentation de la phrase entière.

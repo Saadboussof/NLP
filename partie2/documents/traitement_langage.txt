@@ -1,0 +1,15 @@
+Le traitement du langage naturel (NLP - Natural Language Processing) est un domaine de l'intelligence artificielle qui se concentre sur l'interaction entre les ordinateurs et le langage humain. L'objectif principal du NLP est de permettre aux machines de comprendre, interpréter et générer du langage humain de manière utile.
+
+La classification de texte est l'une des tâches fondamentales du NLP. Elle consiste à attribuer une catégorie ou un label à un texte. Les applications courantes incluent la détection de spam, la classification de sentiments (positif, négatif, neutre) et la catégorisation de documents. Les modèles modernes comme BERT atteignent des performances surhumaines sur plusieurs benchmarks de classification.
+
+L'analyse de sentiment est un cas spécifique de classification de texte qui détermine l'opinion ou l'émotion exprimée dans un texte. Elle est largement utilisée par les entreprises pour analyser les avis clients, surveiller les réseaux sociaux et comprendre la satisfaction des consommateurs. L'analyse peut être binaire (positif/négatif), multi-classe (très négatif, négatif, neutre, positif, très positif) ou basée sur les aspects.
+
+La reconnaissance d'entités nommées (NER - Named Entity Recognition) identifie et classifie les entités mentionnées dans un texte, comme les noms de personnes, les organisations, les lieux et les dates. Par exemple, dans la phrase "Elon Musk a fondé SpaceX en Californie en 2002", le NER identifie "Elon Musk" comme personne, "SpaceX" comme organisation, "Californie" comme lieu et "2002" comme date.
+
+Le question answering (QA) est la tâche qui consiste à répondre automatiquement à des questions posées en langage naturel. Il existe deux types principaux : le QA extractif, où la réponse est extraite directement d'un texte source, et le QA génératif, où la réponse est générée par le modèle. BERT est particulièrement performant pour le QA extractif.
+
+Le résumé automatique (automatic summarization) consiste à générer un résumé concis d'un texte plus long. Il existe deux approches : le résumé extractif (sélectionner les phrases les plus importantes) et le résumé abstractif (générer de nouvelles phrases qui résument le contenu). Les modèles comme BART et T5 excellent dans le résumé abstractif.
+
+La traduction automatique (machine translation) a été révolutionnée par les Transformers. Le modèle original Transformer a été conçu pour cette tâche. Google Translate utilise maintenant des modèles basés sur les Transformers pour proposer des traductions de haute qualité entre plus de 100 langues.
+
+Les word embeddings sont des représentations vectorielles des mots dans un espace continu. Word2Vec et GloVe sont des techniques classiques qui créent des embeddings statiques (un même vecteur pour chaque mot, indépendamment du contexte). Les modèles contextuels comme BERT créent des embeddings dynamiques qui varient selon le contexte, permettant de distinguer les différents sens d'un même mot.

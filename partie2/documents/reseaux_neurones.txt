@@ -1,0 +1,15 @@
+Les réseaux de neurones artificiels sont des modèles mathématiques inspirés du fonctionnement biologique du cerveau humain. Un neurone artificiel reçoit des entrées, les multiplie par des poids, ajoute un biais, puis applique une fonction d'activation pour produire une sortie.
+
+Les fonctions d'activation jouent un rôle crucial dans les réseaux de neurones. La fonction ReLU (Rectified Linear Unit) est la plus utilisée : elle retourne 0 pour les valeurs négatives et la valeur elle-même pour les valeurs positives. La fonction Sigmoid transforme les valeurs en probabilités entre 0 et 1. La fonction Softmax est utilisée dans la couche de sortie pour la classification multi-classe.
+
+Le perceptron est le réseau de neurones le plus simple, composé d'un seul neurone. Il peut résoudre des problèmes linéairement séparables. Le perceptron multicouche (MLP - Multi-Layer Perceptron) empile plusieurs couches de neurones et peut résoudre des problèmes non linéaires grâce aux fonctions d'activation.
+
+L'overfitting (surapprentissage) est un problème majeur en deep learning. Il se produit lorsque le modèle apprend trop bien les données d'entraînement et ne généralise pas bien sur de nouvelles données. Pour lutter contre l'overfitting, on utilise des techniques de régularisation comme le dropout (qui désactive aléatoirement certains neurones pendant l'entraînement), la régularisation L1/L2, et l'augmentation de données.
+
+Le batch normalization est une technique qui normalise les activations de chaque couche pour accélérer l'entraînement et stabiliser le processus d'apprentissage. Elle réduit le problème de changement de distribution interne (internal covariate shift) et permet d'utiliser des taux d'apprentissage plus élevés.
+
+Les autoencodeurs sont des réseaux de neurones qui apprennent à compresser les données en une représentation compacte (encodage) puis à les reconstruire (décodage). Ils sont utilisés pour la réduction de dimensionnalité, la détection d'anomalies et la génération de données. Les autoencodeurs variationnels (VAE) sont une version probabiliste qui permet de générer de nouvelles données similaires aux données d'entraînement.
+
+Les GAN (Generative Adversarial Networks) sont composés de deux réseaux qui s'affrontent : un générateur qui crée de fausses données et un discriminateur qui essaie de distinguer les vraies données des fausses. Ce processus adversarial produit des résultats impressionnants en génération d'images, de vidéos et de texte. Des modèles comme StyleGAN peuvent générer des visages humains photoréalistes.
+
+L'attention (attention mechanism) est un concept fondamental qui a révolutionné le deep learning. L'idée est simple : au lieu de traiter toutes les entrées de manière égale, le modèle apprend à "faire attention" aux parties les plus pertinentes. Le mécanisme d'attention multi-têtes (multi-head attention) dans les Transformers permet au modèle de capturer différents types de relations entre les mots simultanément.
