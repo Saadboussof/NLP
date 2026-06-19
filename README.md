@@ -1,14 +1,14 @@
-# 🤖 Mini-Projet : Transformers et Systèmes RAG
+#Mini-Projet : Transformers et Systèmes RAG
 
 **ENSA Al Hoceima — ID2**
 
 ---
 
-## 📋 Description
+##Description
 
 Ce mini-projet explore l'utilisation pratique des modèles Transformers pour le NLP (Natural Language Processing) et l'implémentation d'un système RAG (Retrieval-Augmented Generation).
 
-## 📁 Structure du Projet
+##Structure du Projet
 
 ```
 NLP/
@@ -41,7 +41,7 @@ NLP/
 └── README.md                             # Ce fichier
 ```
 
-## 🚀 Installation
+##Installation
 
 ```bash
 # 1. Cloner ou télécharger le projet
@@ -49,7 +49,7 @@ NLP/
 pip install -r requirements.txt
 ```
 
-## ▶️ Exécution
+##Exécution
 
 ```bash
 # Exécuter chaque script individuellement :
@@ -60,7 +60,7 @@ python partie1/4_question_answering.py
 python partie1/5_resume_automatique.py
 ```
 
-## 📝 Partie 1 : Exploration des Transformers
+##Partie 1 : Exploration des Transformers
 
 | Script | Tâche | Modèles Utilisés |
 |--------|-------|-------------------|
@@ -70,7 +70,7 @@ python partie1/5_resume_automatique.py
 | `4_question_answering.py` | Question Answering | DistilBERT-SQuAD, XLM-R |
 | `5_resume_automatique.py` | Résumé automatique | BART-CNN, T5, DistilBART |
 
-## 📝 Partie 2 : Système RAG
+##Partie 2 : Système RAG
 
 L'implémentation complète et modulaire se trouve dans `partie2/` :
 - `main.py` : Lancez ce script pour voir la démo complète
